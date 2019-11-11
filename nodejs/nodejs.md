@@ -56,7 +56,7 @@
 ### 差异
 1. CommonJS 模块输出的是一个值的拷贝，ES6 模块输出的是值的引用。
 2. CommonJS 模块是运行时加载，ES6 模块是编译时输出接口。
-### 回调函数异步化，事件机制，EventEmitter
-### node缓冲区Buffer
-### Node.js Stream(流)，对文件进行操作，如复制较大文件，压缩文件等
-### 模板化
+## 回调函数异步化，事件机制，EventEmitter
+## node缓冲区Buffer
+## Node.js Stream(流)，对文件进行操作，如复制较大文件，压缩文件等
+## 模板化
