@@ -14,3 +14,4 @@ this.setState((preState) => {
 * 纯组件，数据突变时的更新渲染，浅拷贝与深拷贝
 * Hooks
 * immutable数据不可变性
+* diff算法以及key的合理使用
