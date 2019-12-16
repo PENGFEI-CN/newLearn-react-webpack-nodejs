@@ -1,8 +1,8 @@
 # react深入学习
-* 为什么使用mobx
+## 为什么使用mobx
     mobx面向对象，redux函数式编程
-* react高阶组件封装懒加载图片
-* react中setState的同异步问题，参数和回调的使用，
+## react高阶组件封装懒加载图片
+## react中setState的同异步问题，参数和回调的使用，
 ```
 this.setState((preState) => {
     //preState更新前的数据
@@ -11,7 +11,12 @@ this.setState((preState) => {
     console.log(this.state)
 })
 ```
-* 纯组件，数据突变时的更新渲染，浅拷贝与深拷贝
-* Hooks
-* immutable数据不可变性
-* diff算法以及key的合理使用
+## 纯组件，数据突变时的更新渲染，浅拷贝与深拷贝
+## Hooks
+## immutable数据不可变性
+## diff算法以及key的合理使用
+   diff算法策略：层次遍历，只对同层级节点进行比较，节点不存在或者则该节点
+* element diff
+    + 插入、移动、删除
+* tree diff
+* component diff
