@@ -84,6 +84,6 @@ printLabel(myObj);
 
 * 类型变量
 
-```-JS
+```-JS  
 paas.terminus.io
 ```
