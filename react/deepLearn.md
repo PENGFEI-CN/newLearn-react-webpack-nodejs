@@ -24,6 +24,8 @@
     * useState
     * useEffect
     * useContent
+    * useCallback
+    * useMemo
 
 ## immutable数据不可变性
 
@@ -36,6 +38,11 @@
     * component diff
 
 ## react中receiveProps的作用，shouldComponentUpdate的具体作用
+
+    * shouldComponentUpdate
+      * 无改变的setState和由父组件重新渲染导致的所有子组件重新渲染的问题
+    * 纯组件
+      * shadowComparis浅比较
 
 ## fiber（reconciliation（diff算法自顶向下不可中断））：拆分reconciliation
 

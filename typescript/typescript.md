@@ -9,14 +9,14 @@
     let x:[string,number]; //(越界元素会使用联合类型，比如前面的第三个元素的话需要时string｜number类型)
     ```
 
-* 枚举
+* 枚举  
 
 ```-javascript
 enum Color {Red, Green, Blue}
 let c: Color = Color.Green;
 ```
 
-* any 程阶段还不清楚类型的变量指定一个类型
+* any 还不清楚类型的变量指定一个类型
 * void（没有任何类型只能赋值null｜undefined）、null、undefined
     默认情况下null和undefined是所有类型的子类型。 就是说你可以把 null和undefined赋值给number类型的变量。
 * Never
@@ -85,5 +85,11 @@ printLabel(myObj);
 * 类型变量
 
 ```-JS  
-paas.terminus.io
+function identity<T>(arg: T): T {
+    return arg;
+}
 ```
+
+## 枚举
+
+enum
